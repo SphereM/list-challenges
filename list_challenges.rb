@@ -113,14 +113,15 @@ end
 #puts can_balance([10,2,3,5])
 #puts can_balance([1,7,2,3,5,2])
 
-def middle_way(list)
-
-
+def middle_way(list1, list2)
+    mid = list1.size / 2 
+    mid2 = list2.size / 2
+    return [list1[mid], list2[mid2]]
 end
 
 
-puts middle_way([2,4,6,7])
-puts middle_way([3,2,5,8,0])
+puts middle_way([2,4,6,7,1], [3,7,4])
+puts middle_way([3,2,5,8,0], [1,9,0,4,6,8,3,2,7])
 
 
 
