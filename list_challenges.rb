@@ -103,15 +103,24 @@ def can_balance(list)
             if sum2 == sum1
                 return true
             end
-            b += list[i+1]
+            #b += list[i+1]
         end
     return sum2
 end
 
 
-puts can_balance([6,2,3,5])
-puts can_balance([10,2,3,5])
-puts can_balance([1,7,2,3,5,2])
+#puts can_balance([6,2,3,5])
+#puts can_balance([10,2,3,5])
+#puts can_balance([1,7,2,3,5,2])
+
+def middle_way(list)
+
+
+end
+
+
+puts middle_way([2,4,6,7])
+puts middle_way([3,2,5,8,0])
 
 
 
