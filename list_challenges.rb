@@ -120,9 +120,16 @@ def middle_way(list1, list2)
 end
 
 
-puts middle_way([2,4,6,7,1], [3,7,4])
-puts middle_way([3,2,5,8,0], [1,9,0,4,6,8,3,2,7])
+# puts middle_way([2,4,6,7,1], [3,7,4])
+# puts middle_way([3,2,5,8,0], [1,9,0,4,6,8,3,2,7])
 
+
+
+def count_code(str)
+
+
+
+end
 
 
 
